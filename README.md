@@ -15,6 +15,7 @@ This script reads all the gpx files in a directory and converts them to Feature 
 If the feature class schemas match, like GPS running logs from the same debice, the Merge tool can be used to easily combine the outputs.
 
 To run this script:
-1.  Change the workspace_folder variable for your environment
-2.  Open the Python window in ArcMap and paste in the code
-3.  Type return/enter to execute
+
+1.   Change the workspace_folder variable for your environment
+2.   Open the Python window in ArcMap and paste in the code
+3.   Type return/enter to execute
