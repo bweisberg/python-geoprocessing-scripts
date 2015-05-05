@@ -51,7 +51,7 @@ for gpxfile in gpxlist:
     outfile = os.path.splitext(os.path.basename(gpxfile))[0]
 
     print('Converting ' + gpxfile)
-    arcpy.GPXtoFeatures_conversion(gpxfile, outputgdb + outfile)
+    arcpy.GPXtoFeatures_conversion(gpxfile, outputgdb + '\\' + outfile)
 
 print('done')
 
