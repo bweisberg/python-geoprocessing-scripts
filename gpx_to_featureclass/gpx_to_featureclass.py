@@ -55,6 +55,6 @@ for gpxfile in gpxlist:
 
 print('done')
 
-# TODO: Merge the feature classes
-# featureclasses = arcpy.ListFeatureClasses()
-# arcpy.Merge_management(featureclasses,env.workspace + '\\' + 'all_runs')
+# Merge the feature classes
+featureclasses = arcpy.ListFeatureClasses()
+arcpy.Merge_management(featureclasses,arcpy.env.workspace + '\\' + 'all_runs')
